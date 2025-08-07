@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- css fontawesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css cdn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/menu.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-navbar">
+      <div class="container-fluid">
+        <!-- logo  -->
+        <a class="navbar-brand" href="#">FFC</a>
+
+        <!-- Toggler button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- menu  -->
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="meun.html">Menu</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="log-in.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                LogIn
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="log-in.html">Log In</a></li>
+                <li><a class="dropdown-item" href="index.html">Log Out</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sign-up.html">Sign up</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+            />
+            <button class="btn" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section id="menu">
+      <div class="box">
+        <h2>BROWSE MENU CATEGORIES</h2>
+        <div>
+          <a href="#special-item">Special Items for today</a>
+          <a href="#">Other Sides</a>
+          <a href="#">Drink</a>
+          <a href="#">Desert</a>
+        </div>
+      </div>
+      <div class="meun">
+        <h2>Special Items</h2>
+        <div class="container" id="special-item">
+          <div class="card">
+            <img src="images/BEVERAGES.jpg" alt="" class="card-img" />
+            <h3 class="card-title">BEVERAGES</h3>
+            <span>Cost : $3.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              Beverages like water, tea, coffee, and juice refresh, energize,
+              and bring people together in daily life and celebrations.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/CHICKEN-MEALS.jpg" alt="" class="card-img" />
+            <h3 class="card-title">CHICKEN MEALS</h3>
+            <span>Cost : $10.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A chicken meal is a popular dish that provides protein and flavor,
+              often served with rice, vegetables, or bread.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/COMBO-MEALS.jpg" alt="" class="card-img" />
+            <h3 class="card-title">COMBO MEALS</h3>
+            <span>Cost : $12.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              Combo meals are popular food choices that include a main dish, a
+              side, and a drink, offering convenience, value, and variety
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img
+              src="images/Limited-Time-Offer-Home-Page-Image.jpg"
+              alt=""
+              class="card-img"
+            />
+            <h3 class="card-title">Limited Time Offer</h3>
+            <span>Cost : $20.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A limited time offer is a special deal available only for a short
+              period, encouraging quick decisions and purchases
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/SHARED-MEALS.jpg" alt="" class="card-img" />
+            <h3 class="card-title">SHARED MEALS</h3>
+            <span>Cost : $22.90</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A shared meal brings people together, allowing them to enjoy food,
+              conversation, and connection in a warm atmosphere.
+            </p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <h2>Other Sides</h2>
+        <div class="container" id="other-side">
+          <div class="card">
+            <img src="images/2.-Popcorn-Chicken.png" alt="" class="card-img" />
+            <h3 class="card-title">BEVERAGES</h3>
+            <span>Cost : $3.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              Beverages like water, tea, coffee, and juice refresh, energize,
+              and bring people together in daily life and celebrations.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/3.-Chicken-Nuggets.png" alt="" class="card-img" />
+            <h3 class="card-title">CHICKEN MEALS</h3>
+            <span>Cost : $10.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A chicken meal is a popular dish that provides protein and flavor,
+              often served with rice, vegetables, or bread.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/4.-Fries.png" alt="" class="card-img" />
+            <h3 class="card-title">COMBO MEALS</h3>
+            <span>Cost : $12.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              Combo meals are popular food choices that include a main dish, a
+              side, and a drink, offering convenience, value, and variety
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/5.-Large-Fries.png" alt="" class="card-img" />
+            <h3 class="card-title">Limited Time Offer</h3>
+            <span>Cost : $20.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A limited time offer is a special deal available only for a short
+              period, encouraging quick decisions and purchases
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/6.-Rice.png" alt="" class="card-img" />
+            <h3 class="card-title">SHARED MEALS</h3>
+            <span>Cost : $22.90</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A shared meal brings people together, allowing them to enjoy food,
+              conversation, and connection in a warm atmosphere.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/7.-Boneless-Chicken.png" alt="" class="card-img" />
+            <h3 class="card-title">SHARED MEALS</h3>
+            <span>Cost : $22.90</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A shared meal brings people together, allowing them to enjoy food,
+              conversation, and connection in a warm atmosphere.
+            </p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <h2>Drinks</h2>
+        <div class="container" id="drink">
+          <div class="card">
+            <img src="images/1.-Coke-Zero.png" alt="" class="card-img" />
+            <h3 class="card-title">BEVERAGES</h3>
+            <span>Cost : $3.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              Beverages like water, tea, coffee, and juice refresh, energize,
+              and bring people together in daily life and celebrations.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/Coca-Cola.png" alt="" class="card-img" />
+            <h3 class="card-title">CHICKEN MEALS</h3>
+            <span>Cost : $10.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A chicken meal is a popular dish that provides protein and flavor,
+              often served with rice, vegetables, or bread.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/3.-Iced-Coffee.png" alt="" class="card-img" />
+            <h3 class="card-title">COMBO MEALS</h3>
+            <span>Cost : $12.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              Combo meals are popular food choices that include a main dish, a
+              side, and a drink, offering convenience, value, and variety
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img
+              src="images/Limited-Time-Offer-Home-Page-Image.jpg"
+              alt=""
+              class="card-img"
+            />
+            <h3 class="card-title">Limited Time Offer</h3>
+            <span>Cost : $20.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A limited time offer is a special deal available only for a short
+              period, encouraging quick decisions and purchases
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/5.-Iced-Milo.png" alt="" class="card-img" />
+            <h3 class="card-title">SHARED MEALS</h3>
+            <span>Cost : $22.90</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A shared meal brings people together, allowing them to enjoy food,
+              conversation, and connection in a warm atmosphere.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/6.-Water.png" alt="" class="card-img" />
+            <h3 class="card-title">SHARED MEALS</h3>
+            <span>Cost : $22.90</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A shared meal brings people together, allowing them to enjoy food,
+              conversation, and connection in a warm atmosphere.
+            </p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+        <h2>Drinks</h2>
+        <div class="container" id="drink">
+          <div class="card">
+            <img src="images/1.-Coke-Zero.png" alt="" class="card-img" />
+            <h3 class="card-title">BEVERAGES</h3>
+            <span>Cost : $3.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              Beverages like water, tea, coffee, and juice refresh, energize,
+              and bring people together in daily life and celebrations.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/Coca-Cola.png" alt="" class="card-img" />
+            <h3 class="card-title">CHICKEN MEALS</h3>
+            <span>Cost : $10.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A chicken meal is a popular dish that provides protein and flavor,
+              often served with rice, vegetables, or bread.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/3.-Iced-Coffee.png" alt="" class="card-img" />
+            <h3 class="card-title">COMBO MEALS</h3>
+            <span>Cost : $12.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              Combo meals are popular food choices that include a main dish, a
+              side, and a drink, offering convenience, value, and variety
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img
+              src="images/Limited-Time-Offer-Home-Page-Image.jpg"
+              alt=""
+              class="card-img"
+            />
+            <h3 class="card-title">Limited Time Offer</h3>
+            <span>Cost : $20.00</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A limited time offer is a special deal available only for a short
+              period, encouraging quick decisions and purchases
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/5.-Iced-Milo.png" alt="" class="card-img" />
+            <h3 class="card-title">SHARED MEALS</h3>
+            <span>Cost : $22.90</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A shared meal brings people together, allowing them to enjoy food,
+              conversation, and connection in a warm atmosphere.
+            </p>
+            <button>Buy Now</button>
+          </div>
+          <div class="card">
+            <img src="images/6.-Water.png" alt="" class="card-img" />
+            <h3 class="card-title">SHARED MEALS</h3>
+            <span>Cost : $22.90</span>
+            <div class="star-rating">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <p>
+              A shared meal brings people together, allowing them to enjoy food,
+              conversation, and connection in a warm atmosphere.
+            </p>
+            <button>Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer  -->
+    <footer>
+      <div class="footer">
+        <div class="column">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment option</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Other</h4>
+          <ul>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">terms of use</a></li>
+            <li><a href="#">allergen infotmation </a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>follow us</h4>
+
+          <div class="social-link">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <p>&copy; Copyright , 2025</p>
+    </footer>
+    <!-- js fontawesome  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- js cdn  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
