@@ -28,9 +28,9 @@ form .btn {
   box-shadow: 10px;
 }
 .header p {
-  width: 20rem;
+  width: 40rem;
   align-items: center;
-  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 1px rgba(231, 210, 17, 0.3);
 }
 .header button {
   border: none;
@@ -97,4 +97,9 @@ ul {
 footer p {
   color: #bbbbbb;
   text-align: center;
+}
+#arrow {
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
 }
