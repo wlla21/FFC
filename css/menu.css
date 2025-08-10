@@ -10,7 +10,7 @@
   width: 14rem;
   justify-content: center;
   padding: 10px;
-  height: 80vh;
+  height: 50vh;
   border-radius: 10px;
   float: left;
 }
@@ -36,7 +36,7 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
-  margin: 10px;
+  margin: 5px;
   flex-wrap: wrap;
 }
 .checked {
@@ -46,18 +46,17 @@
   border-radius: 10px;
   height: auto;
   width: 16rem;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   margin: 10px;
   padding: 10px;
+  box-shadow: 2px 1px rgba(0, 0, 0, 0.2);
 }
 .card-img {
   border-radius: 10px 10px 0px 0px;
   height: 230px;
-  width: 15rem;
+  width: 100%;
 }
-figcaption {
-  text-align: center;
-}
+
 button {
   background-color: orange;
   border: none;
@@ -65,4 +64,23 @@ button {
   padding: 10px;
   border-radius: 5px;
   margin: 5px;
+}
+
+@media (max-width: 767px) {
+  .box {
+    display: none;
+  }
+  #menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    margin-top: 0px;
+  }
+  .card .star-rating,
+  .card p {
+    display: none;
+  }
 }

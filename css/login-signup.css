@@ -12,7 +12,7 @@
   justify-content: center;
   align-items: center;
   color: #000;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .container {
   height: 50%;
