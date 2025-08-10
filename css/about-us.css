@@ -32,9 +32,19 @@ body {
   margin: 5px;
   border-radius: 3px;
 }
+.table-card p {
+  height: 5rem;
+}
 .table-card button {
   border: none;
   background-color: orange;
   padding: 10px;
   border-radius: 10px;
+}
+@media (max-width: 767px) {
+  #intro,
+  .table {
+    display: flex;
+    flex-direction: column;
+  }
 }
