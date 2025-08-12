@@ -22,14 +22,12 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/menu.css" />
-    <title>Menu</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-navbar" id="nav">
       <div class="container-fluid">
         <!-- logo  -->
-        <a class="navbar-brand" href="#">FFC</a>
+        <a class="navbar-brand" href="#">KFC</a>
 
         <!-- Toggler button -->
         <button
@@ -87,17 +85,62 @@
         </div>
       </div>
     </nav>
-    <section id="menu">
-      <div class="box">
-        <h2>BROWSE MENU CATEGORIES</h2>
-        <div>
-          <a href="#special-item">Special Items for today</a>
-          <a href="#">Other Sides</a>
-          <a href="#">Drink</a>
-          <a href="#">Desert</a>
+    <section id="menu" class="row">
+      <link rel="stylesheet" href="css/menu.css" />
+      <title>Menu</title>
+      <div class="box col-2">
+        <div class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="log-in.html"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Select items type
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">All</a></li>
+            <li>
+              <a class="dropdown-item" href="#special-item">Special Item</a>
+            </li>
+            <li><a class="dropdown-item" href="#other-sides">Sides</a></li>
+            <li><a class="dropdown-item" href="#drink">Drink</a></li>
+          </ul>
+        </div>
+        <div class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="log-in.html"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Price
+          </a>
+          <ul class="dropdown-menu">
+            <li><input type="checkbox" class="dropdown-item" /> All</li>
+            <li><input type="checkbox" class="dropdown-item" />Lowest</li>
+            <li><input type="checkbox" class="dropdown-item" />Lowest</li>
+          </ul>
+        </div>
+        <div class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="log-in.html"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Pick Up Method
+          </a>
+          <ul class="dropdown-menu">
+            <li><input type="radio" class="dropdown-item" />Delievery</li>
+            <li><input type="radio" class="dropdown-item" />Pick up Store</li>
+          </ul>
         </div>
       </div>
-      <div class="meun">
+      <div class="meun col">
         <h2>Special Items</h2>
         <div class="container" id="special-item">
           <div class="card">
@@ -245,8 +288,8 @@
           <div class="card">
             <img src="images/4.-Fries.png" alt="" class="card-img" />
             <div class="info">
-              <h3 class="card-title">COMBO MEALS</h3>
-              <span>Cost : $12.00</span>
+              <h3 class="card-title">Fries</h3>
+              <span>Cost : $5.00</span>
               <div class="star-rating">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -264,7 +307,7 @@
           <div class="card">
             <img src="images/5.-Large-Fries.png" alt="" class="card-img" />
             <div class="info">
-              <h3 class="card-title">Limited Time Offer</h3>
+              <h3 class="card-title">Large Fries</h3>
               <span>Cost : $20.00</span>
               <div class="star-rating">
                 <span class="fa fa-star checked"></span>
@@ -283,7 +326,7 @@
           <div class="card">
             <img src="images/6.-Rice.png" alt="" class="card-img" />
             <div class="info">
-              <h3 class="card-title">SHARED MEALS</h3>
+              <h3 class="card-title">Rice</h3>
               <span>Cost : $22.90</span>
               <div class="star-rating">
                 <span class="fa fa-star checked"></span>
@@ -302,7 +345,7 @@
           <div class="card">
             <img src="images/7.-Boneless-Chicken.png" alt="" class="card-img" />
             <div class="info">
-              <h3 class="card-title">SHARED MEALS</h3>
+              <h3 class="card-title">Boneless Chicken</h3>
               <span>Cost : $22.90</span>
               <div class="star-rating">
                 <span class="fa fa-star checked"></span>
@@ -324,7 +367,7 @@
           <div class="card">
             <img src="images/1.-Coke-Zero.png" alt="" class="card-img" />
             <div class="info">
-              <h3 class="card-title">BEVERAGES</h3>
+              <h3 class="card-title">Coke Zero</h3>
               <span>Cost : $3.00</span>
               <div class="star-rating">
                 <span class="fa fa-star checked"></span>
@@ -343,8 +386,8 @@
           <div class="card">
             <img src="images/Coca-Cola.png" alt="" class="card-img" />
             <div class="info">
-              <h3 class="card-title">CHICKEN MEALS</h3>
-              <span>Cost : $10.00</span>
+              <h3 class="card-title">Coca Cola</h3>
+              <span>Cost : $2.00</span>
               <div class="star-rating">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
@@ -362,7 +405,7 @@
           <div class="card">
             <img src="images/3.-Iced-Coffee.png" alt="" class="card-img" />
             <div class="info">
-              <h3 class="card-title">COMBO MEALS</h3>
+              <h3 class="card-title">Iced Coffee</h3>
               <span>Cost : $12.00</span>
               <div class="star-rating">
                 <span class="fa fa-star checked"></span>
@@ -381,7 +424,7 @@
           <div class="card">
             <img src="images/5.-Iced-Milo.png" alt="" class="card-img" />
             <div class="info">
-              <h3 class="card-title">SHARED MEALS</h3>
+              <h3 class="card-title">Iced Milo</h3>
               <span>Cost : $22.90</span>
               <div class="star-rating">
                 <span class="fa fa-star checked"></span>
@@ -400,7 +443,7 @@
           <div class="card">
             <img src="images/6.-Water.png" alt="" class="card-img" />
             <div class="info">
-              <h3 class="card-title">SHARED MEALS</h3>
+              <h3 class="card-title">Water</h3>
               <span>Cost : $22.90</span>
               <div class="star-rating">
                 <span class="fa fa-star checked"></span>
@@ -417,7 +460,6 @@
             </div>
           </div>
         </div>
-        <h2>Drinks</h2>
       </div>
     </section>
     <!-- footer  -->
