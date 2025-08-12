@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Add icon library -->
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- css fontawesome  -->
@@ -22,6 +21,7 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/menu.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-navbar" id="nav">
@@ -86,60 +86,8 @@
       </div>
     </nav>
     <section id="menu" class="row">
-      <link rel="stylesheet" href="css/menu.css" />
       <title>Menu</title>
-      <div class="box col-2">
-        <div class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="log-in.html"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Select items type
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">All</a></li>
-            <li>
-              <a class="dropdown-item" href="#special-item">Special Item</a>
-            </li>
-            <li><a class="dropdown-item" href="#other-sides">Sides</a></li>
-            <li><a class="dropdown-item" href="#drink">Drink</a></li>
-          </ul>
-        </div>
-        <div class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="log-in.html"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Price
-          </a>
-          <ul class="dropdown-menu">
-            <li><input type="checkbox" class="dropdown-item" /> All</li>
-            <li><input type="checkbox" class="dropdown-item" />Lowest</li>
-            <li><input type="checkbox" class="dropdown-item" />Lowest</li>
-          </ul>
-        </div>
-        <div class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="log-in.html"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Pick Up Method
-          </a>
-          <ul class="dropdown-menu">
-            <li><input type="radio" class="dropdown-item" />Delievery</li>
-            <li><input type="radio" class="dropdown-item" />Pick up Store</li>
-          </ul>
-        </div>
-      </div>
+      <div class="box col-2" id="box"></div>
       <div class="meun col">
         <h2>Special Items</h2>
         <div class="container" id="special-item">

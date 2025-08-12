@@ -18,28 +18,15 @@
   padding: 10px;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.box a {
-  font-size: 20px;
-  color: #000;
-  padding: 8px;
-  border-bottom: 1px solid #000;
-}
-.dropdown-menu a {
-  color: #fff;
-}
-.dropdown-menu li {
-  display: flex;
-  flex-direction: row;
-  color: #fff;
-}
-.dropdown-menu li input {
-  width: 15px;
-}
-#menu h2 {
+.box #menu h2 {
   margin-right: 10px;
 }
 .menu {
   margin: 20px 0px;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
 }
 .container {
   display: flex;

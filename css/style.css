@@ -3,14 +3,14 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.navbar {
+#nav {
   background-color: black;
   color: #fff;
 }
-.navbar a {
+#nav a {
   color: #fff;
 }
-.navbar a:hover {
+#nav a:hover {
   color: orange;
 }
 .nav-item .dropdown-menu {
