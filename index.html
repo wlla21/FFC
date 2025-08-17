@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="images/chicken-piece_10916219.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- css fontawesome  -->
@@ -13,6 +17,14 @@
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
     />
 
     <!-- css cdn  -->
@@ -27,10 +39,11 @@
     <title>KFC</title>
   </head>
   <body>
+    <!-- navbar  -->
     <nav class="navbar navbar-expand-lg bg-navbar">
       <div class="container-fluid">
         <!-- logo  -->
-        <a class="navbar-brand" href="#">KFC</a>
+        <a class="navbar-brand" href="#">FFC</a>
 
         <!-- Toggler button -->
         <button
@@ -53,6 +66,12 @@
             <li class="nav-item">
               <a class="nav-link" href="meun.html">Menu</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -67,9 +86,6 @@
                 <li><a class="dropdown-item" href="log-in.html">Log In</a></li>
                 <li><a class="dropdown-item" href="index.html">Log Out</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sign-up.html">Sign up</a>
@@ -88,15 +104,23 @@
         </div>
       </div>
     </nav>
-
     <!-- header  -->
     <header>
-      <div class="header">
-        <p>
-          KFC is a fast food restaurant serving quick, tasty, and affordable
-          meals for everyone to enjoy anytime.
-        </p>
-        <button><a href="meun.html">Order Now</a></button>
+      <div class="home">
+        <div class="content">
+          <h3></h3>
+          <p>
+            KFC is a fast food restaurant serving quick, tasty, and affordable
+            meals for everyone to enjoy anytime.
+          </p>
+          <a href="meun.html" class="btn">Order Now</a>
+        </div>
+        <div class="image">
+          <img
+            src="images/delicious-burger-with-fresh-ingredients.png"
+            alt="delicious-burger-with-fresh-ingredients"
+          />
+        </div>
       </div>
     </header>
 

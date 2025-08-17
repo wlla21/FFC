@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/chicken-piece_10916219.png"
+      type="image/x-icon"
+    />
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- css fontawesome  -->
     <link
@@ -24,10 +37,11 @@
     <link rel="stylesheet" href="css/menu.css" />
   </head>
   <body>
+    <!-- navbar  -->
     <nav class="navbar navbar-expand-lg bg-navbar" id="nav">
       <div class="container-fluid">
         <!-- logo  -->
-        <a class="navbar-brand" href="#">KFC</a>
+        <a class="navbar-brand" href="#">FFC</a>
 
         <!-- Toggler button -->
         <button
@@ -50,6 +64,12 @@
             <li class="nav-item">
               <a class="nav-link" href="meun.html">Menu</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -64,9 +84,6 @@
                 <li><a class="dropdown-item" href="log-in.html">Log In</a></li>
                 <li><a class="dropdown-item" href="index.html">Log Out</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sign-up.html">Sign up</a>
@@ -85,9 +102,27 @@
         </div>
       </div>
     </nav>
+
+    <!-- menu  -->
     <section id="menu" class="row">
-      <title>Menu</title>
-      <div class="box col-2" id="box"></div>
+      <div class="box col-2" id="box">
+        <form action="">
+          <input type="search" placeholder="Serach" />
+          <button type="button"><i class="fa fa-search"></i></button>
+        </form>
+        <div class="items-type">
+          <h3>Select Items Type</h3>
+          <ul>
+            <li><a href="#special-item">Special Items</a></li>
+            <li><a href="#other-side">Other Sides</a></li>
+            <li><a href="#drink">Drink</a></li>
+          </ul>
+        </div>
+        <div class="price">
+          <h3>Price Filter</h3>
+          <input type="range" name="price_filter" id="price_filter" />
+        </div>
+      </div>
       <div class="meun col">
         <h2>Special Items</h2>
         <div class="container" id="special-item">
@@ -208,8 +243,9 @@
                 <span class="fa fa-star"></span>
               </div>
               <p>
-                Beverages like water, tea, coffee, and juice refresh, energize,
-                and bring people together in daily life and celebrations.
+                Crispy popcorn chicken, golden and flavorful, with tender juicy
+                bites perfect for snacking, sharing, or dipping in your favorite
+                sauces.
               </p>
               <button>Buy Now</button>
             </div>
@@ -227,8 +263,9 @@
                 <span class="fa fa-star"></span>
               </div>
               <p>
-                A chicken meal is a popular dish that provides protein and
-                flavor, often served with rice, vegetables, or bread.
+                Golden chicken nuggets, crispy outside and tender inside, a
+                delicious snack or meal loved by all ages, perfect with dipping
+                sauces.
               </p>
               <button>Buy Now</button>
             </div>
@@ -246,8 +283,9 @@
                 <span class="fa fa-star"></span>
               </div>
               <p>
-                Combo meals are popular food choices that include a main dish, a
-                side, and a drink, offering convenience, value, and variety
+                Crispy golden fries, freshly cooked and lightly salted, the
+                perfect side dish or snack to enjoy anytime with your favorite
+                dips.
               </p>
               <button>Buy Now</button>
             </div>
@@ -265,8 +303,9 @@
                 <span class="fa fa-star"></span>
               </div>
               <p>
-                A limited time offer is a special deal available only for a
-                short period, encouraging quick decisions and purchases
+                Enjoy a generous serving of crispy golden large fries, perfectly
+                salted, hot and fresh—ideal for sharing or satisfying big
+                cravings
               </p>
               <button>Buy Now</button>
             </div>
@@ -284,8 +323,8 @@
                 <span class="fa fa-star"></span>
               </div>
               <p>
-                A shared meal brings people together, allowing them to enjoy
-                food, conversation, and connection in a warm atmosphere.
+                Fluffy steamed rice, light and perfectly cooked, a versatile
+                side dish that pairs wonderfully with any meal, savory or spicy.
               </p>
               <button>Buy Now</button>
             </div>
@@ -303,8 +342,9 @@
                 <span class="fa fa-star"></span>
               </div>
               <p>
-                A shared meal brings people together, allowing them to enjoy
-                food, conversation, and connection in a warm atmosphere.
+                Tender boneless chicken, juicy and flavorful, cooked to
+                perfection, making every bite easy to enjoy with sauces or
+                favorite sides.
               </p>
               <button>Buy Now</button>
             </div>

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/about-us.css" />
+    <link
+      rel="shortcut icon"
+      href="images/chicken-piece_10916219.png"
+      type="image/x-icon"
+    />
 
     <!-- css fontawesome  -->
     <link
@@ -13,6 +18,14 @@
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
     />
 
     <!-- css cdn  -->
@@ -25,6 +38,7 @@
     <title>About us</title>
   </head>
   <body>
+    <!-- navbar  -->
     <nav class="navbar navbar-expand-lg bg-navbar">
       <div class="container-fluid">
         <!-- logo  -->
@@ -51,6 +65,12 @@
             <li class="nav-item">
               <a class="nav-link" href="meun.html">Menu</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -65,9 +85,6 @@
                 <li><a class="dropdown-item" href="log-in.html">Log In</a></li>
                 <li><a class="dropdown-item" href="index.html">Log Out</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="sign-up.html">Sign up</a>
@@ -86,9 +103,15 @@
         </div>
       </div>
     </nav>
-    <section id="contact-us">
+
+    <!-- about us  -->
+    <section id="about-us">
       <div id="intro">
-        <img src="images/13295046_5193124(1).jpg" alt="" height="200px" />
+        <img
+          src="images/hand-drawn-flat-design-people-eating-collection.png"
+          alt=""
+          height="200px"
+        />
         <div class="text">
           <h3>Fast Food Chain</h3>
           <p>
@@ -135,11 +158,15 @@
         <div id="question-header">
           <h3>Frequently Asked Qusetion</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Repellendus labore dignissimos numquam harum ipsum aut velit nemo
-            culpa quo dicta, eveniet provident voluptatem perspiciatis natus
-            nisi ea, impedit esse explicabo!
+            Our FAQ section is designed to provide quick answers to the most
+            common questions you may have. From product details and services to
+            payments and support, you’ll find helpful information here. If you
+            don’t see the answer you’re looking for, feel free to reach
+            out—we’re always ready to assist you.
           </p>
+          <a href="contact-us.html"
+            >Contact Us <i class="fa fa-arrow-right"></i
+          ></a>
         </div>
         <div id="question">
           <div class="question">
@@ -147,14 +174,17 @@
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
+              data-bs-target="#payment"
+              aria-controls="payment"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="question">What Payment that KFC Support?</span>
+              <span class="question"
+                ><i class="fa fa-angle-double-down icon" width="10px"></i> What
+                Payment that KFC Support?</span
+              >
             </button>
-            <p class="collapse navbar-collapse" id="navbarSupportedContent">
+            <p class="collapse navbar-collapse" id="payment">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Veritatis atque eaque magnam cupiditate ab reiciendis magni culpa
               commodi ea quisquam?
@@ -166,32 +196,17 @@
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
+              data-bs-target="#time"
+              aria-controls="time"
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="question">How long KFC take to develive?</span>
+              <span class="question"
+                ><i class="fa fa-angle-double-down icon" width="10px"></i>How
+                long KFC take to develive?</span
+              >
             </button>
-            <p class="collapse navbar-collapse" id="navbarSupportedContent">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Veritatis atque eaque magnam cupiditate ab reiciendis magni culpa
-              commodi ea quisquam?
-            </p>
-          </div>
-          <div class="question">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="question">What is KFC return policy</span>
-            </button>
-            <p class="collapse navbar-collapse" id="navbarSupportedContent">
+            <p class="collapse navbar-collapse" id="time">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Veritatis atque eaque magnam cupiditate ab reiciendis magni culpa
               commodi ea quisquam?
@@ -200,6 +215,8 @@
         </div>
       </div>
     </section>
+
+    <!-- footer  -->
     <footer>
       <div class="footer">
         <div class="column">
