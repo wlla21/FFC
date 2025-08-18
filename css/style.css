@@ -157,6 +157,7 @@ footer p {
     height: auto;
   }
   .home {
+    padding-top: 10rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
