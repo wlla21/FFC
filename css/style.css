@@ -166,7 +166,7 @@ footer p {
     width: 100%;
   }
   .home .content {
-    text-align: center;
+    text-align: left;
     height: 10px;
     display: flex;
     flex-direction: column;
@@ -186,6 +186,7 @@ footer p {
   }
   .content .btn {
     margin: auto;
+    padding: auto;
   }
   .footer {
     display: flex;
