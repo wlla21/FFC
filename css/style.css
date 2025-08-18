@@ -154,32 +154,32 @@ footer p {
 }
 @media (max-width: 767px) {
   header {
-    height: 50rem;
+    height: auto;
   }
   .home {
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
+    justify-content: center;
     position: absolute;
+    width: 100%;
   }
   .home .content {
-    text-align: left;
+    text-align: center;
     height: 10px;
     display: flex;
     flex-direction: column;
     font-size: 10px;
-    margin: 0px;
     flex: 1 1 5rem;
   }
   .home .content p {
-    width: auto;
-    padding: 1rem;
-    font-size: 17px;
+    margin: 3rem 0rem;
+    width: 15rem;
+    font-size: 18px;
   }
   .home .image img {
-    width: 20rem;
-    margin: auto;
+    width: 15rem;
+    margin: 5rem;
     padding: auto;
   }
   .footer {
