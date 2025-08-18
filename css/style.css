@@ -183,6 +183,9 @@ footer p {
     margin: 5rem;
     padding: auto;
   }
+  .content .btn {
+    margin: auto;
+  }
   .footer {
     display: flex;
     flex-direction: column;
