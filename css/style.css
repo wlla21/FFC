@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Roboto flex";
+  font-family: "Roboto", sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -66,9 +66,10 @@ form .btn {
 .home .content p {
   width: 30rem;
   font-size: 1.2rem;
-  font-weight: 100;
+  font-weight: 300;
   color: #fff;
   padding: 1rem 0;
+  font-family: "Mozilla Headline", sans-serif;
 }
 .content .btn {
   padding: 10px;

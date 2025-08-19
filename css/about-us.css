@@ -22,20 +22,34 @@
 }
 .table-card {
   width: 20rem;
-  height: 15rem;
+  height: auto;
   border: 1px solid #000;
   padding: 10px;
   margin: 5px;
   border-radius: 3px;
 }
-.table-card p {
-  height: 6rem;
+.table-card .icon {
+  font-size: 30px;
+  width: 75%;
+  justify-content: center;
+  padding: 2rem;
 }
-.table-card button {
+.table-card p {
+  height: 5rem;
+}
+.table-card a {
   border: none;
   background-color: orange;
   padding: 10px;
   border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+}
+.table-card a:hover {
+  transition: 0.5s;
+  background-color: transparent;
+  border: 2px solid #000;
+  color: #000;
 }
 #fqa {
   width: 50rem;

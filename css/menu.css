@@ -64,7 +64,7 @@
 }
 .card {
   border-radius: 10px;
-  height: 14rem;
+  height: auto;
   width: 30rem;
   /* border: 1px solid #000; */
   margin: 10px;
@@ -87,13 +87,23 @@
 .info h3 {
   font-size: 18px;
 }
-button {
+.card a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
   background-color: orange;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 5px;
   margin: 5px;
+}
+.card a:hover {
+  background-color: transparent;
+  color: #fa003f;
+  letter-spacing: 0.25rem;
+  border: 2px solid #fa003f;
+  transition: 0.5s;
 }
 
 @media (max-width: 767px) {
