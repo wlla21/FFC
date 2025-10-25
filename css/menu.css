@@ -48,7 +48,7 @@ button {
   padding: 20px 0px;
 }
 #button {
-  background-color: #ffd700;
+  background-color: orange;
   border: 1px solid #000;
   border-radius: 5px;
   text-decoration: none;
@@ -71,7 +71,7 @@ button {
   flex-wrap: wrap;
 }
 .checked {
-  color: #ffd700;
+  color: orange;
 }
 .card {
   border-radius: 10px;
@@ -102,7 +102,7 @@ button {
   text-align: center;
   text-decoration: none;
   color: #000;
-  background-color: #ffd700;
+  background-color: orange;
   border: none;
   border: 1px solid rgba(0, 0, 0, 0.5);
   padding: 10px;
