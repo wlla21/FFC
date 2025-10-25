@@ -9,11 +9,14 @@ html {
   position: relative;
 }
 nav {
-  background-color: #fa003f;
-  color: #fff;
+  background-color: #8b0000;
 }
-#nav a:hover {
-  color: #ffd700;
+nav a {
+  color: #fff !important;
+}
+nav a:hover {
+  color: orange !important;
+  border-bottom: 2px dotted orange;
 }
 .nav-item .dropdown-menu {
   background-color: rgba(0, 0, 0, 0.9);
@@ -32,51 +35,41 @@ form .btn {
 }
 
 /* header  */
+header {
+  height: 100vh;
+  overflow: hidden;
+}
 .home {
   display: flex;
   flex-direction: row;
   padding: 2rem 9%;
-  gap: 1.5rem;
   background: linear-gradient(to top, #000, #8b0000);
-  min-height: 80vh;
 }
 .home .content {
   text-align: center;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: end;
+  align-items: center;
   margin: auto 2rem;
-  flex: 1 1 40rem;
 }
-.home .image {
-  flex: 1 1 40rem;
-}
+
 .home .image img {
-  width: 30rem;
-  padding: 1rem;
+  width: 25rem;
   animation: float 3s linear infinite;
 }
-.home .content h3 {
-  font-size: 5rem;
-  color: #666;
-  padding: 1rem 0;
-}
 .home .content p {
-  width: 30rem;
-  font-size: 1.2rem;
+  font-family: "Mozilla Headline", sans-serif;
+  font-size: 1.5rem;
   font-weight: 300;
+  line-height: 1.5;
   color: #fff;
   padding: 1rem 0;
-  font-family: "Mozilla Headline", sans-serif;
 }
 .content .btn {
   padding: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.3);
   color: #fff;
-  font-size: 1rem;
-  background-color: #ffd700;
+  background-color: orange;
 }
 /* footer  */
 .footer {
@@ -92,7 +85,7 @@ form .btn {
 }
 
 footer {
-  background-color: #fa003f;
+  background-color: #8b0000;
   padding: 10px;
 }
 ul {
@@ -103,7 +96,7 @@ ul {
 }
 .column h4 {
   font-size: 18px;
-  color: #ffd700;
+  color: orange;
   text-transform: capitalize;
   margin-bottom: 30px;
   font-weight: 500;
@@ -114,7 +107,7 @@ ul {
   position: absolute;
   left: 0px;
   bottom: -10px;
-  background-color: #fa003f;
+  background-color: #8b0000;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -127,14 +120,14 @@ ul {
   text-transform: capitalize;
   text-decoration: none;
   font-weight: 300;
-  color: #ffd700;
+  color: orange;
   display: block;
 }
 .social-link a {
-  color: #ffd700;
+  color: orange;
 }
 footer p {
-  color: #ffd700;
+  color: orange;
   text-align: center;
 }
 #arrow {
@@ -142,7 +135,7 @@ footer p {
   font-size: 30px;
   bottom: 10px;
   right: 1rem;
-  color: #ffd700;
+  color: orange;
 }
 @keyframes float {
   0%,
@@ -150,7 +143,7 @@ footer p {
     transform: translateY(0rem);
   }
   50% {
-    transform: translateY(3rem);
+    transform: translateY(2rem);
   }
 }
 @media (max-width: 767px) {

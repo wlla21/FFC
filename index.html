@@ -8,9 +8,8 @@
       href="images/chicken-piece_10916219.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/style.css" />
 
-    <!-- css fontawesome  -->
+    <!-- fontawesome  css-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -19,21 +18,15 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- font  -->
+    <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
 
-    <!-- css cdn  -->
+    <!-- bootstrap css cdn  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -41,85 +34,95 @@
       crossorigin="anonymous"
     />
 
-    <style></style>
-    <title>KFC</title>
+    <!-- external css  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>FFC</title>
   </head>
-  <body>
-    <!-- navbar  -->
-    <nav class="navbar navbar-expand-lg bg-navbar">
-      <div class="container-fluid">
-        <!-- logo  -->
-        <a class="navbar-brand" href="#">FFC</a>
 
-        <!-- Toggler button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <!-- menu  -->
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="meun.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact-us.html">Contact Us</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="log-in.html"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                LogIn
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="log-in.html">Log In</a></li>
-                <li><a class="dropdown-item" href="index.html">Log Out</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sign-up.html">Sign up</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-            />
-            <button class="btn" type="submit">
-              <i class="fa fa-search"></i>
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
+  <body>
     <!-- header  -->
     <header>
+      <!-- navbar  -->
+      <nav class="navbar navbar-expand-lg bg-navbar">
+        <div class="container-fluid">
+          <!-- logo  -->
+          <a class="navbar-brand" href="#">FFC</a>
+
+          <!-- Toggler button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- menu  -->
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="meun.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="log-in.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Log In
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="log-in.html">Log In</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="index.html">Log Out</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sign-up.html">Sign up</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <div class="input-group">
+                <input
+                  type="search"
+                  class="form-control"
+                  placeholder="Search"
+                />
+                <button class="btn btn-warning">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+
       <div class="home">
         <div class="content">
-          <h3></h3>
           <p>
-            KFC is a fast food restaurant serving quick, tasty, and affordable
+            FFC is a fast food restaurant serving quick, tasty, and affordable
             meals for everyone to enjoy anytime.
           </p>
-          <a href="meun.html" class="btn">Order Now</a>
+          <a href="meun.html" class="btn" style="width: 200px">Order Now</a>
         </div>
         <div class="image">
           <img
